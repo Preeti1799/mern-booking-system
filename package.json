@@ -1,22 +1,23 @@
 {
   "name": "mern-hotel-booking-backend",
   "version": "1.0.0",
-  "description": "Backend for MERN stack hotel booking app",
+  "description": "Backend for MERN hotel booking application",
   "main": "api/index.js",
+  "type": "module",
   "scripts": {
     "start": "node api/index.js",
     "dev": "nodemon api/index.js"
   },
   "keywords": [],
   "author": "Preeti",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "mongoose": "^7.2.2"
+    "mongoose": "^6.8.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22"
+    "nodemon": "^3.0.1"
   }
 }
