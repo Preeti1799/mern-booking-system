@@ -1,0 +1,70 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1e1e1e;
+}
+
+.register-box {
+    background: #282c34;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+h2 {
+    color: #97cba9;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #97cba9;
+    background: #1e1e1e;
+    color: white;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #97cba9;
+    border: none;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #82b091;
+}
+
+.register-message {
+    color: #97cba9;
+    margin-top: 10px;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.login-link {
+    margin-top: 15px;
+    color: white;
+}
+
+.login-link a {
+    color: #97cba9;
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
