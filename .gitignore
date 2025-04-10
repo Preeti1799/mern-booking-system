@@ -1,1 +1,23 @@
+# Ignore environment variables
+.env
+
+# Ignore node modules
+node_modules/
+
+# Ignore build artifacts and logs
+*.log
+*.tmp
+
+# Ignore Vercel related config
 .vercel
+vercel.json
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore test config
+test-env.cjs
+
+# Ignore client folder (if backend-only repo)
+client/
+
