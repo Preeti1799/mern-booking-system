@@ -12,7 +12,7 @@ dotenv.config();
 const app = express();
 
 app.use(express.json());
-app.use(cors({ origin: "https://your-frontend.vercel.app" })); // Replace with your Vercel URL
+app.use(cors({ origin: "https://ppmernbookings.vercel.app" })); // Replace with your Vercel URL
 
 app.use("/api/auth", authRoute);
 app.use("/api/hotels", hotelsRoute);
