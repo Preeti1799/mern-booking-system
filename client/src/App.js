@@ -1,11 +1,12 @@
-import React from 'react'; 
- 
-function App() { 
-  return ( 
-    <div> 
-      <h1>Hotel Booking App</h1> 
-    </div> 
-  ); 
-} 
- 
-export default App; 
+import React, { useEffect } from "react";
+import api from "./src/api/axios";
+
+function App() {
+  useEffect(() => {
+    api.get("/hotels").then((response) => console.log("API Response:", response.data));
+  }, []);
+
+  return <div>Check browser console (F12) for API response!</div>;
+}
+
+export default App;
